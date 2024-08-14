@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #141519;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        form{
+            padding: 20px;
+            background-color:#212832;
+            border-radius: 15px;
+            width: 250px;
+            max-width: 500px;
+            display: flex;
+            flex-direction: column; 
+             gap: 15px;  
+            height: 260px;
+        }
+
+        .orange-background{
+            color: #F07012;
+            border-radius: 50px;
+            font-size: 25px;
+        }
+
+        .gun{
+            width: 50px;
+            height:50px;
+            border-radius: 50%;
+            display:grid;
+            place-items: center;
+            background-color: #282C35;
+        }
+
+        .rat{
+          color: white;
+        }
+
+        .flex{
+            display: flex;
+            gap: 10px;
+            
+        }
+
+        .flex div{
+            width: 50px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: white;
+            display:grid;
+            place-items: center;
+        }
+        button{
+            width: 100%;
+            background-color:#F07012 ;
+            color: #FFFFFF;
+            border: none;
+            padding: 4px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="gun">
+            <i class="fa fa-star orange-background" aria-hidden="true"></i>
+    </div>
+    <div class=" rat">
+    <h2> How do we do ?</h2>
+    <br>
+    <h5>please let us know how we did with your support <br>request. All feedback is appreciated to help us improve our offering.</h5>
+</div>
+<div class="flex">
+   <div>1</div>
+   <div>2</div>
+   <div>3</div>
+   <div>4</div>
+   <div>5</div>
+</div>
+
+<button>Submit</button>
+    </form>
+</body>
+</html>
